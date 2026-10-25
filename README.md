@@ -91,3 +91,12 @@ Les fichiers nécessaires :
 - **Configuration :** la compilation nécessite une installation du Vulkan SDK et une configuration correcte des bibliothèques.
 - **Exécution :** les shaders et les textures doivent être accessibles depuis le répertoire de travail du programme.
 - **Programmes :** les deux points d'entrée `main()` ne peuvent pas être compilés simultanément. Le programme souhaité doit être sélectionné dans Visual Studio.
+
+
+## Références utilises
+
+- [Tutoriel officiel Vulkan — Khronos](https://docs.vulkan.org/tutorial/latest/)
+- [GLFW](https://www.glfw.org/)
+- [GLM](https://github.com/g-truc/glm)
+- [stb_image](https://github.com/nothings/stb)
+
