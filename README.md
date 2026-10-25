@@ -95,8 +95,29 @@ Les fichiers nécessaires :
 
 ## Références utilises
 
-- [Tutoriel officiel Vulkan — Khronos](https://docs.vulkan.org/tutorial/latest/)
-- [GLFW](https://www.glfw.org/)
-- [GLM](https://github.com/g-truc/glm)
-- [stb_image](https://github.com/nothings/stb)
+Tutos API graphiques 
+Vulkan : https://docs.vulkan.org/tutorial/latest/00_Introduction.html
+OpenGL : https://www.opengl-tutorial.org/ ou https://paroj.github.io/gltut/
+
+Vulkan 
+https://renderdoc.org/vulkan-in-30-minutes.html
+
+Ressources guide : https://www.khronos.org/files/vulkan11-reference-guide.pdf
+
+Documentation : https://docs.vulkan.org/spec/latest/index.html
+
+VulkanHPP : Binding C++ de Vulkan : https://github.com/KhronosGroup/Vulkan-Hpp
+
+GLEW The OpenGL Extension Wrangler Library (Ouvrir des fenêtres) : https://glew.sourceforge.net/
+
+OpenGL Mathematics (GLM) : https://github.com/g-truc/glm
+
+OpenGL
+GLFW, migration 2.X to 3.X : https://www.glfw.org/docs/3.0/moving.html
+
+OpenGL Mathematics (GLM) : https://github.com/g-truc/glm
+
+GLEW The OpenGL Extension Wrangler Library (Charger OpenGL et ouvrir des fenêtres) : https://glew.sourceforge.net/
+
+DebugOutput : https://wikis.khronos.org/opengl/Debug_Output
 
