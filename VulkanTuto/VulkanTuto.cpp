@@ -3,7 +3,7 @@
 int main()
 {
    
-    Application app(vertices, indices, "textures/texture.jpg");
+    Application app(vertices, indices, "../Textures/texture.jpg");
     app.Init();
     app.Run();
 

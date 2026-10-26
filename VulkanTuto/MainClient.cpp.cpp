@@ -19,7 +19,7 @@ int main()
 {
     try
     {
-        Application app(triangleVertices, triangleIndices, "textures/triangle.jpg");
+        Application app(triangleVertices, triangleIndices, "../Textures/triangle.jpg");
 
         app.Init();
         app.Run();

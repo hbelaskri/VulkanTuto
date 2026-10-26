@@ -72,8 +72,10 @@ void Pipeline::createDescriptorSetLayout()
 }
 void Pipeline::createGraphicsPipeline()
 {
-    vk::raii::ShaderModule shaderModule = createShaderModule(readFile("shaders/slang.spv"));
+    
+    vk::raii::ShaderModule shaderModule = createShaderModule(readFile("../shaders/slang.spv"));
 
+  
     vk::PipelineShaderStageCreateInfo vertShaderStageInfo
     { 
         .stage = vk::ShaderStageFlagBits::eVertex,

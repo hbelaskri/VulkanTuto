@@ -156,6 +156,7 @@
     <ClCompile Include="Debug.cpp" />
     <ClCompile Include="MainClient.cpp.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Pipeline.cpp" />
     <ClCompile Include="Renderer.cpp" />
@@ -165,6 +166,7 @@
     <ClCompile Include="VertexBuffer.cpp" />
     <ClCompile Include="VulkanTuto.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
